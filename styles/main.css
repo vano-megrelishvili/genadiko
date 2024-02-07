@@ -1,0 +1,361 @@
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+    
+}
+
+
+.first{
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.categories{
+    margin-top: 25px;
+    font-size: 22px;
+    color: black;
+    margin-bottom: 18px;
+}
+
+.lists{
+    margin-top: 15px;
+    color: grey;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.second{
+    margin-top: 40px;
+    display: flex;
+    gap: 400px;
+    
+    
+}
+
+.every_categories{
+    width: 150px;
+    font-size: 20px;
+    height: 50px;
+}
+
+
+.first_image{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+
+
+.sort{
+    display: flex;
+    height: 50px;
+    
+}
+
+.for_sort{
+    margin-top: 13px;
+
+}
+
+.lists:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.grid_container{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 110px;
+}
+
+.grid_items{
+    width: 300px;
+    height: 300px;
+   
+    
+}
+
+.for_images{
+    padding: 15px 15px 20px 15px;
+    background-color: lightgrey;
+    height: 308px;
+    
+}
+
+.images{
+    width: 250px;
+    height: 200px;
+}
+
+.for_prices{
+    display: flex;
+    gap: 20px;
+}
+
+.secondprice{
+    text-decoration: line-through;
+}
+
+.cart_button{
+    width: 80%;
+    background-color: #141718;
+    color: white;
+    height: 40px;
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: none;
+    cursor: pointer;
+    
+}
+
+.for_images:hover{
+    .cart_button{
+        display: block;
+    }
+}
+
+.show_more {
+    margin-top: 130px;
+    margin-left: 340px;
+    width: 163px;
+    height: 40px;
+    padding: 6px, 40px, 6px, 40px;
+    border-radius: 80px;
+    border: 1px;
+    color: #141718;
+    font-size: 15px;
+    cursor: pointer;
+
+
+    
+}
+
+.new_butt{
+    width: 250px;
+    background-color: #141718;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.star_img{
+    width: 14px;
+    height: 14px;
+}
+
+.for_stars{
+    display: flex;
+    gap: 6px;
+}
+
+.for_stars1{
+    display: flex;
+    gap: 6px;
+
+}
+
+.popup{
+    position: fixed;
+    left: 51%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 1180px;
+    height: 600px;
+    background-color: #FFFFFF;
+    border-radius: 35px;
+    display: none;
+    padding-left: 20px;
+    box-shadow: 12px 12px 2px 1px rgb(15, 15, 17);
+    
+}
+
+.second_div{
+    display: flex;
+    
+
+}
+
+.three_image {
+    display: flex;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.image1 {
+    width: 167px;
+    height: 167px;
+}
+
+.image2 {
+    width: 167px;
+    height: 167px;
+}
+
+.image3 {
+    width: 167px;
+    height: 167px;
+}
+
+.for_mainimage{
+    width: 525px;
+    height: 380px;
+    background-color: lightgray;
+    padding-left: 100px;
+    padding-top: 30px;
+    margin-top: 12px;
+}
+
+.main_image{
+    width: 300px;
+    height: 300px;
+}
+
+.for_description{
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+
+.main_title{
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+#decript{
+    margin-top: 20px;
+}
+
+.forprices{
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+#price1{
+    text-decoration: line-through;
+    color: #6C7275;
+    font-size: 18px;
+}
+
+.forbuttons{
+    margin-top: 25px;
+}
+
+.cart1{
+    width: 508px;
+    background-color: #141718;
+    color: white;
+    height: 52px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 12px;
+
+}
+
+.wishlist{
+    width: 508px;
+    height: 52px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+
+}
+
+.for_category{
+    display: flex;
+    gap: 28px;
+    margin-top: 35px;
+
+}
+
+.scrollbar{
+    width: 200px;
+    
+}
+
+.scrolldiv{
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: lightgray;
+    border-radius: 10px;
+    
+}
+
+.product_title{
+    color: #141718;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.for_titles{
+    margin-top: 10px;
+    
+}
+
+.firstprice{
+    color: #141718;
+    font-size: 18px;
+
+}
+#discountedprice{
+    color: #141718;
+    font-size: 18px;
+
+}
+
+.secondprice{
+    color: #6C7275;
+    font-size: 18px;
+
+}
+
+p{
+    color: #6C7275;
+    font-size: 14px;
+}
+
+.discount{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    padding-top: 3px;
+    
+}
+
+.for_discount{
+    margin-bottom: 5px;
+    width: 71px;
+    height: 24px;
+    background-color: #38CB89;
+    border-radius: 8px;
+
+}
+
+.rating{
+    display: none;
+}
+
+.categ{
+    display: none;
+}
+
